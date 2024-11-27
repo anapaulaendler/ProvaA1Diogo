@@ -1,3 +1,6 @@
+@id = 2f1b7dc1-3b9a-4e1a-a389-7f5d2f1c8f3e
+@local = http://localhost:5000/api/tarefas
+
 ### Listar todas as tarefas
 GET http://localhost:5000/api/tarefas/listar
 
@@ -10,3 +13,12 @@ Content-Type: application/json
     "descricao": "Estudar Node.js para desenvolver aplicações web",
     "categoriaId": "6d091456-5a2f-4b5a-98fc-f1a3b50a627d"
 }
+
+### Atualizar tarefa
+PUT {{local}}/alterar/{{id}}
+
+### Get não concluídas
+GET {{local}}/naoconcluidas
+
+### get concluidas
+GET {{local}}/concluidas

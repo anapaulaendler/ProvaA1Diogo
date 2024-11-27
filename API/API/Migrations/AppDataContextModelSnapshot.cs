@@ -36,19 +36,19 @@ namespace API.Migrations
                         new
                         {
                             CategoriaId = "bfe4e7dc-81e4-4e47-a67b-d4fbf3e124bd",
-                            CriadoEm = new DateTime(2024, 11, 28, 9, 2, 27, 994, DateTimeKind.Local).AddTicks(5820),
+                            CriadoEm = new DateTime(2024, 11, 28, 9, 44, 33, 826, DateTimeKind.Local).AddTicks(8303),
                             Nome = "Trabalho"
                         },
                         new
                         {
                             CategoriaId = "6d091456-5a2f-4b5a-98fc-f1a3b50a627d",
-                            CriadoEm = new DateTime(2024, 11, 29, 9, 2, 27, 994, DateTimeKind.Local).AddTicks(5828),
+                            CriadoEm = new DateTime(2024, 11, 29, 9, 44, 33, 826, DateTimeKind.Local).AddTicks(8313),
                             Nome = "Estudos"
                         },
                         new
                         {
                             CategoriaId = "39be53a2-fc09-4b6a-bafa-18a6a23c8f6e",
-                            CriadoEm = new DateTime(2024, 11, 30, 9, 2, 27, 994, DateTimeKind.Local).AddTicks(5831),
+                            CriadoEm = new DateTime(2024, 11, 30, 9, 44, 33, 826, DateTimeKind.Local).AddTicks(8315),
                             Nome = "Lazer"
                         });
                 });
@@ -84,7 +84,7 @@ namespace API.Migrations
                         {
                             TarefaId = "6a8b3e4d-5e4e-4f7e-bdc9-9181e456ad0e",
                             CategoriaId = "bfe4e7dc-81e4-4e47-a67b-d4fbf3e124bd",
-                            CriadoEm = new DateTime(2024, 12, 4, 9, 2, 27, 994, DateTimeKind.Local).AddTicks(5939),
+                            CriadoEm = new DateTime(2024, 12, 4, 9, 44, 33, 826, DateTimeKind.Local).AddTicks(8423),
                             Descricao = "Terminar relatório para reunião",
                             Status = "Não iniciada",
                             Titulo = "Concluir relatório"
@@ -93,7 +93,7 @@ namespace API.Migrations
                         {
                             TarefaId = "2f1b7dc1-3b9a-4e1a-a389-7f5d2f1c8f3e",
                             CategoriaId = "6d091456-5a2f-4b5a-98fc-f1a3b50a627d",
-                            CriadoEm = new DateTime(2024, 11, 30, 9, 2, 27, 994, DateTimeKind.Local).AddTicks(5942),
+                            CriadoEm = new DateTime(2024, 11, 30, 9, 44, 33, 826, DateTimeKind.Local).AddTicks(8426),
                             Descricao = "Preparar-se para a aula de Angular",
                             Status = "Não iniciada",
                             Titulo = "Estudar Angular"
@@ -102,7 +102,7 @@ namespace API.Migrations
                         {
                             TarefaId = "e5d4a7b9-1f9e-4c4a-ae3b-5b7c1a9d2e3f",
                             CategoriaId = "39be53a2-fc09-4b6a-bafa-18a6a23c8f6e",
-                            CriadoEm = new DateTime(2024, 12, 11, 9, 2, 27, 994, DateTimeKind.Local).AddTicks(5945),
+                            CriadoEm = new DateTime(2024, 12, 11, 9, 44, 33, 826, DateTimeKind.Local).AddTicks(8428),
                             Descricao = "Dar um passeio relaxante no parque",
                             Status = "Não iniciada",
                             Titulo = "Passeio no parque"
